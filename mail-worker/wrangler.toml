@@ -31,8 +31,8 @@ crons = ["0 16 * * *"]	#定时任务每天晚上12点执行
 
 [vars]
 orm_log = false
-domain = [ "mail.xlogic.cc" ]				#邮件域名可可配置多个 示例: ["example1.com","example2.com"]
-admin = "admin@mail.xlogic.cc"			#管理员的邮箱	示例: admin@example.com
+domain = [ "xlogic.cc" ]				#邮件域名可可配置多个 示例: ["example1.com","example2.com"]
+admin = "admin@xlogic.cc"			#管理员的邮箱	示例: admin@example.com
 jwt_secret = "1a3a65846af64b6cb513cba7358d2e74"			#jwt令牌的密钥,随便填一串字符串
 
 [build]
